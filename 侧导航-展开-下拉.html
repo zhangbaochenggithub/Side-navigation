@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="base.css">
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="base.js"></script>
+    <title>侧导航-展开-下拉</title>
+</head>
+
+<body>
+    <div class="content">
+        <!-- 侧导航 -->
+        <div class="vl_nav_div">
+            <ul class="vl_nav">
+                <li class="vl_li">
+                    <div class="vl_li_">
+                        <a href="#">
+                            <img class="vl_icon" src="images/business.png" alt="">
+                            <img class="vl_icon" src="images/business_blue.png" alt="">
+                            <div>测试一级</div>
+                        </a>
+                    </div>
+                </li>
+                <li class="vl_li">
+                    <div class="vl_li_">
+                        <a href="#">
+                            <img class="vl_icon" src="images/business.png" alt="">
+                            <img class="vl_icon" src="images/business_blue.png" alt="">
+                            <div>测试一级
+                                <img class="vl_li_arrow" src="images/arrow_black.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <ul class="vl_t_nav">
+                        <li class="li_second">
+                            <a href="#">测试二级1</a>
+                            <img class="vl_s_arrow" src="images/arrow_black.png" alt="">
+                        </li>
+                        <ul class="vl_s_nav">
+                            <li class="li_third">
+                                <a href="#" class="pending_second">测试三级1</a>
+                            </li>
+                            <li class="li_third">
+                                <a href="#" class="pending_second">测试三级2</a>
+                            </li>
+                        </ul>
+                        <li class="li_second">
+                            <a href="#" class="pending_second">测试二级2</a>
+                        </li>
+                        <li class="li_second">
+                            <a href="#">测试二级3</a>
+                        </li>
+                        <li class="li_second">
+                            <a href="#">测试二级4</a>
+                            <img class="vl_s_arrow" src="images/arrow_black.png" alt="">
+                        </li>
+                        <ul class="vl_s_nav">
+                            <li class="li_third">
+                                <a href="#" class="pending_second">测试三级1</a>
+                            </li>
+                            <li class="li_third">
+                                <a href="#" class="pending_second">测试三级2</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </li>
+                <li class="vl_li">
+                    <div class="vl_li_">
+                        <a href="#">
+                            <img class="vl_icon" src="images/business.png" alt="">
+                            <img class="vl_icon" src="images/business_blue.png" alt="">
+                            <div>Test一级
+                                <img class="vl_li_arrow" src="images/arrow_black.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <ul class="vl_t_nav">
+                        <li class="li_second">
+                            <a href="#">Test二级1</a>
+                        </li>
+                        <li class="li_second">
+                            <a href="#">Test二级2</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="vl_nav_toggle"></div>
+        </div>
+        <!-- 内容区start -->
+        <div class="content_">
+            <div class="content_module"></div>
+        </div>
+    </div>
+</body>
+
+</html>
